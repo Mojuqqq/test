@@ -1,0 +1,519 @@
+@media screen and (max-width: 1400px) {
+    .header-contact-row p {
+        display: none;
+    }
+
+    .header-contact {
+        width: 250px;
+        justify-content: flex-end;
+    }
+
+    .header-contact-row img {
+        width: 25px;
+    }
+
+    .course-notice-content div, .competition-notice-content div{
+        margin: 0;
+    }
+
+    .competition-notice-content {
+        background-position: bottom;
+    }
+
+    .competition-main_bg {
+        height: 84%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    
+
+    .header-navigation, .header-contact {
+        display: none;
+    }
+
+    .nav_buttom {
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .header-contact-row p {
+        display: inline-block;
+    }
+
+    /* NOTICE */
+
+    .notice-content {height: 900px;}
+    .notice-background_width, .notice-background_blur {height: 994px;}
+
+    .notice__lineargradient {top: 750px;}
+
+    /* bullets */
+
+    .bullets_overlay {
+        height: 160px;
+        margin-bottom: -170px;
+    }
+
+    .bullets-title {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .bul-text {
+        max-width: 350px;
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 10px;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .bul-text p:first-of-type {
+        margin: 0;
+    }
+
+    /* INFO */
+
+    .info-textarea p {
+        font-size: 18px;
+    }
+
+    /* NEWS */
+
+    .card-five {
+        display: none;
+    }
+
+    .news-content {
+        display: grid;
+        max-width: 100%;
+        margin: 3%;
+        grid-template-areas: 
+        "card-one card-two"
+        "card-three card-four";
+        grid-template-columns: minmax(150px, 1fr) minmax(150px, 1fr);
+        grid-template-rows: 300px 300px;
+        grid-gap: 20px;
+        height: auto;
+        justify-items: center;
+    }
+
+    .card-one p:last-child {
+        width: 100%;
+    }
+
+    /* REVIEWS */
+
+    .reviews-blocks {
+        align-items: center;
+    }
+
+    .reviews-feedback {
+        width: 100%;
+    }
+
+    .reviews-feedback:nth-child(even) {
+        margin-left: 0;
+    }
+
+    /* ACTIVITY */ 
+
+    .activity-item-four {
+        display: none;
+    }
+
+    /* FORM */
+
+    .form-block {
+        width: auto;
+    }
+
+    .form-flex-block {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* footer */
+
+    .footer div {
+        width: 340px;
+    }
+
+    .course-notice-content div, .competition-notice-content div{
+        margin: 0;
+    }
+
+    .course-notice-content {
+        background-position: bottom;
+    }
+
+    .conditions li {
+        margin: 30px;
+    }
+
+    .competition-main_bg {
+        height: 85%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .main-background {top: 900px; height: 91%;}
+
+
+    /* NOTICE */ 
+
+    .notice-content {height: 1000px;}
+    .notice-content div {margin-top: 50px;}
+    .notice-background_width, .notice-background_blur {height: 1094px;}
+
+    .notice-content {
+        background-size: 150%;
+    }
+    
+    .notice__lineargradient {top: 850px;}
+
+    /* INFO */
+
+    .info_background-image {display: none;}
+    .info {
+        justify-content: center;
+        height: auto;
+    }
+    .info-textarea {
+        width: 100%;
+        align-items: center;
+        gap: 50px;
+        padding: 0;
+    }
+
+    /* BULLETS */
+
+    .bullets_overlay {
+        height: 305px;
+        margin-bottom: -315px;
+    }
+
+    .bullets-title {
+        flex-direction: column;
+        align-content: center;
+        align-items: flex-start;
+    }
+
+    .bul-text {
+        max-width: none;
+        width: 500px;
+        flex-direction: row-reverse;
+        gap: 10px;
+        justify-content: space-between;
+    }
+
+    /* NEWS */
+
+    .card-five, .card-four, .card-three {display: none;}
+
+    .news-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-style {height: 300px;}
+
+    /* COURSES */
+
+    .courses-block {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 600px;
+        height: 220px;
+    }
+
+    .courses-block_background {
+        background-position: left 5% top 50%;
+        background-size: 21% 50%;
+    }
+
+    .courses-block_background img {
+        top: 27%;
+        right: 35.5%;
+    }
+
+    .courses-title {
+        width: 430px;
+    }
+
+    .courses-block_background:hover img {
+        display: none;
+    }
+
+    .courses-info {
+        gap: 10px;
+        height: 100%;
+        justify-content: space-evenly;
+    }
+
+    /* REVIEWS */
+
+    .reviews-feedback img{display: none;}
+
+    .reviews-feedback {min-height: auto;}
+
+    .reviews-feedback_flex {gap: 30px;}
+
+    .reviews_before {gap: 15px;}
+
+    .reviews_beforeOne, .reviews_beforeTwo, .reviews_beforeThree {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .reviews_beforeOne::before {
+        content: "";
+        width: 100px;
+        height: 100px;
+        background: url(/img/reviews/otziv.jpg) no-repeat center;
+        background-size: cover;
+        border-radius: 50%;
+    }
+
+    .reviews_beforeTwo::before {
+        content: "";
+        width: 100px;
+        height: 100px;
+        background: url(/img/reviews/anim.jpg) no-repeat center;
+        background-size: cover;
+        border-radius: 50%;
+    }
+
+    .reviews_beforeThree::before {
+        content: "";
+        width: 100px;
+        height: 100px;
+        background: url(/img/reviews/bet.jpg) no-repeat center;
+        background-size: cover;
+        border-radius: 50%;
+    }
+
+
+    /* ACTIVITY */
+
+    .activity-item-three {
+        display: none;
+    }
+
+    /* form */
+
+    .form {height: auto;}
+
+
+    /* COURSES HTML */
+
+    div.course-notice-content {
+        background-position: bottom;
+        background-size: 130%;
+    }
+
+    .course-info .courses-block {
+        width: 500px;
+    }
+   
+    .course-main-bg {
+        height: 87%;
+    }
+
+    .course-notice-content div, .competition-notice-content div{
+        margin: 0;
+    }
+
+    .conditions_flex {
+        flex-wrap: wrap;
+    }
+
+
+    .competition-notice-content {
+        background-size: 100%;
+        height: 800px;
+    }
+
+    .competition_bg_width {
+        height: 894px;
+    }
+
+    .competition_bg_blur {
+        height: 894px;
+    }
+
+    .competition_lingra {
+        top: 650px;
+    }
+
+    .competition-main_bg {
+        height: 85%;
+    }
+
+}
+
+
+@media screen and (max-width: 750px) {
+
+    .courses-title {
+        width: 300px;
+        right: 50px;
+        display: inline-block;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+
+    body {
+        font-size: 14px;
+    }
+
+    .notice-content {height: 700px; gap: 30px;}
+    .notice-content div {margin-top: 50px;}
+    .notice-background_width, .notice-background_blur {height: 794px;}
+
+    .notice__lineargradient {top: 550px;}
+
+    .bul-text {
+        max-width: 350px;
+        width: auto;
+    }
+
+    .bul-text p:last-of-type {
+        font-size: 36px;
+    }
+
+    .courses-block {
+        height: auto;
+        min-height: 130px;
+    }
+
+    .courses-block_background {
+        background-position: left 8% top 40%;
+        background-size: 15% 80%;
+    }
+
+    .courses-block_background img {
+        width: 50px;
+        top: 27%;
+        right: 35.5%;
+    }
+
+    .main-background {top: 600px; height: 93%;}
+
+    .nav-menu_click {
+        flex-direction: column;
+    }
+
+    .nav-menu_flex .header-contact-button {
+        width: 158px;
+        max-height: 42;
+        font-size: 14px;
+    }
+
+    .notice, .notice-content, .course-notice-content, .info, .conditions, .bullets, .news, .courses, .reviews, .stages, .activity {
+        margin-bottom: 80px;
+    }
+
+    .notice-content h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .courses-title {
+        width: auto;
+        margin-left: 100px;
+    }
+
+    .slider-activity {
+        flex-direction: column;
+    }
+
+    .activity-item {
+        max-width: 500px;
+        height: 300px;
+    }
+    
+    .course-main-bg {
+        height: 90%;
+    }
+
+    .course-notice-content div, .competition-notice-content div{
+        margin: 0;
+    }
+
+    .conditions_flex {
+        font-size: 14px;
+    }
+
+    .competition-notice-content {
+        background-size: 100%;
+        height: 600px;
+    }
+
+    .competition_bg_width {
+        height: 694px;
+    }
+
+    .competition_bg_blur {
+        height: 694px;
+    }
+
+    .competition_lingra {
+        top: 450px;
+    }
+
+    .competition-main_bg {
+        height: 88%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 550px) {.course-info .courses-block {width: 400px;}}
+@media screen and (max-width: 450px) {.course-info .courses-block {width: 300px;}}
+@media screen and (max-width: 350px) {.course-info .courses-block {width: 250px;}}
+
+@media screen and (max-width: 400px) { 
+    .footer {justify-content: space-between;}
+    .footer div {width: auto;}
+    .stages-block {width: 300px}
+
+    .courses-block_background {
+        background-position: left 5% top 40%;
+        background-size: 22% 80%;
+    }
+    
+    .competition-main_bg {
+        height: 89%;
+    }
+
+}
+
+@media screen and (max-width: 350px) { 
+    .stages-block {width: 250px}
+    
+
+    .reviews_beforeOne::before, .reviews_beforeTwo::before, .reviews_beforeThree::before {
+        content: none;
+    }
+
+    .write-down, .info_button, .reviews-button {
+        width: 180px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    
+
+}
